@@ -1,0 +1,40 @@
+.address-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.address-form__station {
+  flex: 1;
+  font-size: 20px;
+  line-height: 45px;
+  height: 45px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.address-form__input {
+  color: #000;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 8px;
+  outline: 0;
+  font-size: 100%;
+  background: #fff;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.address-form__switch {
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+.address-form__switch-reserve {
+  transform: rotate(180deg);
+}
+
+.address-form__to {
+  text-align: right;
+}

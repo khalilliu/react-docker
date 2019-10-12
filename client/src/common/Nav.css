@@ -1,0 +1,33 @@
+.nav {
+  z-index: 1;
+  min-width: 290px;
+  padding: 0 10px 0 15px;
+  line-height: 44px;
+  height: 44px;
+  background: #f8f8f8;
+  text-align: center;
+  color: #3cc;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-prev,
+.nav-next {
+  float: right;
+  margin-top: 13px;
+  color: #3cc;
+  height: 18px;
+  line-height: 18px;
+}
+
+.nav-prev {
+  float: left;
+}
+
+.nav-current {
+  /* font-weight: bold; */
+}
+
+.nav .nav-disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}

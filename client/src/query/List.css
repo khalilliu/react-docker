@@ -1,0 +1,98 @@
+.list {
+  padding: 10px 15px 55px;
+  margin: 0;
+  list-style: none;
+  line-height: 1.5;
+  background: #fff;
+}
+
+.list-item {
+  overflow: hidden;
+  padding: 10px 0 10px 0;
+  list-style: none;
+  margin: 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.list-item a {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: center;
+  color: #333;
+}
+
+.list-item a:after {
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  font-size: 0;
+  content: '';
+}
+
+.list-item em,
+.list-item i {
+  font-style: normal;
+}
+
+.item-time {
+  width: 24%;
+}
+
+.item-stations {
+  width: 33%;
+}
+
+.item-train {
+  width: 21%;
+}
+
+.item-ticket {
+  text-align: right;
+  flex: 1;
+  color: #f90;
+}
+
+.em-light {
+  color: #666;
+  font-size: 14px;
+}
+
+.em-light-orange {
+  color: #f90;
+  font-size: 14px;
+}
+
+.train-station {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  border-radius: 4px;
+  border: 1px solid #3cc;
+  color: #3cc;
+  text-align: center;
+  font-family: '宋体';
+}
+
+i.train-start {
+  border: 1px solid #3cc;
+  color: #3cc;
+  font-size: 8px;
+
+  margin-right: 5px;
+}
+
+i.train-end {
+  border: 1px solid #39c381;
+  color: #39c381;
+
+  font-size: 8px;
+  margin-right: 5px;
+}
+
+.time-after {
+  color: red;
+}

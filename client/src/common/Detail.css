@@ -1,0 +1,69 @@
+.detail {
+  padding: 0 15px;
+  border-bottom: 1px solid #eaeaea;
+  background: #fff;
+}
+
+.detail .content {
+  padding: 22px 0;
+  display: flex;
+}
+
+.detail .content .left {
+  flex: 1;
+  text-align: left;
+}
+
+.detail .content .right {
+  flex: 1;
+  text-align: right;
+}
+
+.detail .content .middle {
+  width: 115px;
+  text-align: center;
+}
+
+.detail .content p {
+  margin: 0;
+}
+
+.detail .content .city {
+  font-size: 17px;
+}
+
+.detail .content .time {
+  font-size: 24px;
+  color: #333;
+}
+
+.detail .content .date {
+  font-size: 13px;
+  color: #333333;
+}
+
+.detail .content .train-mid .train-name {
+  font-size: 13px;
+  color: #666666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  top: 5px;
+}
+
+.detail .content .train-mid .train-time {
+}
+
+.detail .content .train-mid {
+  padding: 13px 0;
+}
+
+.detail .content .train-mid .left {
+}
+
+.detail .content .train-mid .right {
+}
+
+.detail .content .train-mid .schedule {
+}
