@@ -138,6 +138,11 @@ module.exports = function(webpackEnv) {
         paths.appTicketJs,
         isEnvDevelopment &&
           require.resolve('react-dev-utils/webpackHotDevClient')
+      ].filter(Boolean),
+      order: [
+        paths.appOrderJs,
+        isEnvDevelopment &&
+          require.resolve('react-dev-utils/webpackHotDevClient')
       ].filter(Boolean)
     },
     output: {
